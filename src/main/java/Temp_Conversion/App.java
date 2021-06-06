@@ -18,7 +18,7 @@ public class App
         System.out.println("Press C to convert from Fahrenheit to Celsius.\n" +
                 "Press F to convert from Celsius to Fahrenheit.\nYour choice:");
         choice = myObj.nextLine();
-
+        //Ignores case
         if (choice.equalsIgnoreCase("F")){
             System.out.println("Please enter the temperature in Fahrenheit:");
             temp = myObj.nextLine();
